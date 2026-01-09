@@ -6,7 +6,7 @@ const logger = require('../utils/logger');
 
 class FacebookService {
   constructor() {
-    this.baseUrl = 'https://graph.facebook.com/v18.0';
+    this.baseUrl = 'https://graph.facebook.com/v21.0';
     this.pageId = process.env.FACEBOOK_PAGE_ID;
     this.pageAccessToken = process.env.FACEBOOK_PAGE_ACCESS_TOKEN;
     
